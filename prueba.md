@@ -1,6 +1,6 @@
 ---
-title: "Página de videos"
-metaTitle: "Ejemplo desarrollo web"
+title: "No se que poner xd"
+metaTitle: "Aqui tampoco"
 metaDescription: "ad"
 ---
 
