@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- main
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -23,7 +23,7 @@ steps:
     git config --global user.email "fabian.rozas@alumnos.uv.cl"
     git config --global user.name "Fabianrozas23"    
     echo "clonando pagina web"
-    git clone https://github.com/fabianrozas23/mi-webpage2.git web    
+    git clone https://github.com/fabianrozas23/web-oficial.git web    
     mkdir ./../web
     mv web/* ./../web
     echo "creando carpetas"
