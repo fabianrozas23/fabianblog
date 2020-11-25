@@ -30,12 +30,12 @@ steps:
     mkdir ./../web
     mv web/* ./../web
     echo "creando carpetas"
-    mkdir ./../web/static
-    mkdir ./../web/static/.attachments
+    #mkdir ./../web/static
+    #mkdir ./../web/static/.attachments
     mkdir ./../web/content
 
     echo "copiando contenido"
-    mv ./.attachments/* ./../web/static/.attachments
+    #mv ./.attachments/* ./../web/static/.attachments
     mv ./* ./../web/content
     mkdir web
     mv ./../web/* ./web
@@ -53,18 +53,14 @@ steps:
     encoding: 'auto'
     writeBOM: true
     actionOnMissing: 'warn'
-
     keepToken: false 
-
     tokenPrefix: '#{'
     tokenSuffix: '}#'
     useLegacyPattern: false
     enableTelemetry: false
 
 #instalando gatsby
-
 - script: |    
-
     npm install -g gatsby-cli
   displayName: 'instalando gatsby'
 #fin gatsby
